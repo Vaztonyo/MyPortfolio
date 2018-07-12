@@ -69,7 +69,7 @@
             <h2>About Me...</h2>
             <p class="lead mb-5">I am a hihgly ambitious person who loves gaming and technology, I also <br>
               enjoy spending time with my family and watching football matches!</p>
-              <p>I enjoy the client side of programing as well as seting up my own little express servers <br>
+              <p class="lead mb-5">I enjoy the client side of programing as well as seting up my own little express servers <br>
               using Nodejs in the server side!</p>
             <a class="btn btn-dark btn-xl js-scroll-trigger" href="#portfolio">My Projects</a>
           </div>
@@ -79,7 +79,7 @@
 
 
     <!-- Portfolio -->
-    <section class="content-section" id="portfolio">
+    <section class="content-section bg-warning" id="portfolio">
       <div class="container">
         <div class="content-section-heading text-center">
           <h2 class="mb-5">Projects That I Have Worked On:</h2>
@@ -111,22 +111,22 @@
             <a class="portfolio-item" href="https://vaztonyo-shoe-api.herokuapp.com/">
               <span class="caption">
                 <span class="caption-content">
-                  <h2>Shoes Api</h2>
+                  <h2>Shoes API</h2>
                   <p class="mb-0">Simple online shoe catalogue</p>
                 </span>
               </span>
-              <img class="img-fluid" src="https://wallpaperset.com/w/full/d/9/4/205240.jpg" alt="">
+              <img class="img-fluid" src="http://www.oseifrimpong.me/wp-content/uploads/2018/04/trendy-design-hoka-running-shoes-review-6-11-on-sale-off43-discounts.jpg" alt="">
             </a>
           </div>
           <div class="col-lg-6">
-            <a class="portfolio-item" href="#">
+            <a class="portfolio-item" href="https://misssrakiep.github.io/map-api-project/">
               <span class="caption">
                 <span class="caption-content">
-                  <h2>Workspace</h2>
-                  <p class="mb-0">A yellow workspace with some scissors, pencils, and other objects.</p>
+                  <h2>Project Finder</h2>
+                  <p class="mb-0">Using Google Maps API with Education and Training API</p>
                 </span>
               </span>
-              <img class="img-fluid" src="img/portfolio-4.jpg" alt="">
+              <img class="img-fluid" src="http://detroitcommunitytech.org/sites/default/files/internet-install.jpg" alt="">
             </a>
           </div>
         </div>
@@ -134,44 +134,52 @@
     </section>
 
     <!-- Call to Action -->
-    <section class="content-section bg-primary text-white">
+    <section id="contact" class="content-section bg-light text-black">
       <div class="container text-center">
-        <h2 class="mb-4">The buttons below are impossible to resist...</h2>
-        <a href="#" class="btn btn-xl btn-light mr-4">Click Me!</a>
-        <a href="#" class="btn btn-xl btn-dark">Look at Me!</a>
-      </div>
-    </section>
+          <div class="content-section-heading text-center">
+              <h2 class="mb-5">Contact:</h2>
+            </div>
+          <form action="">
+            <div class="form-group row">
+                <!-- <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label> -->
+                <div class="col-sm-12">
+                  <input type="email" class="form-control" id="inputEmail3" placeholder="Enter Your Email Address...">
+                </div>
+              </div>
+              <div class="form-group row">
+                <!-- <label for="inputText3" class="col-sm-2 col-form-label">Password:</label> -->
+                <div class="col-sm-12">
+                  <input type="text" class="form-control" id="inputText3" placeholder="Enter Your Name...">
+                </div>
+              </div>
+              <div class="form-group row">
+                  <!-- <label for="inputText4" class="col-sm-2 col-form-label">Message:</label> -->
+                  <div class="col-sm-12">
+                    <input type="text" class="form-control" id="inputText4" placeholder="Enter Your Message...">
+                  </div>
+                </div>
+          <a href="#" class="btn btn-xl btn-light mr-4">Submit</a>
+        </form>
+        </div>
+      </section>
 
-    <!-- Map -->
-    <section id="contact" class="map">
-      <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
-      <br/>
-      <small>
-        <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
-      </small>
-    </section>
 
     <!-- Footer -->
-    <footer class="footer text-center">
+    <footer class="footer text-center bg-primary">
       <div class="container">
         <ul class="list-inline mb-5">
           <li class="list-inline-item">
-            <a class="social-link rounded-circle text-white mr-3" href="#">
+            <a class="social-link rounded-circle bg-light text-dark mr-3" href="#">
               <i class="icon-social-facebook"></i>
             </a>
           </li>
           <li class="list-inline-item">
-            <a class="social-link rounded-circle text-white mr-3" href="#">
-              <i class="icon-social-twitter"></i>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a class="social-link rounded-circle text-white" href="#">
+            <a class="social-link rounded-circle bg-light text-dark" href="https://github.com/Vaztonyo">
               <i class="icon-social-github"></i>
             </a>
           </li>
         </ul>
-        <p class="text-muted small mb-0">Copyright &copy; @Vaztonyo2018</p>
+        <p class="text-light small mb-0">Copyright &copy; @Vaztonyo2018</p>
       </div>
     </footer>
 
